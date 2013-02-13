@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+    <head>
+        <meta charset="utf-8" />
+        <title>Tracks — GPS (GPX) Track Viewer</title>
+        <script>
+            <!--
+            // Show error message if app takes a while to initialize
+            // (probably due to resources not loading).
+            var _init = false;
+            window.setTimeout(function() {
+                if(! _init)
+                    document.getElementById('drop').innerHTML = 'The application is having trouble loading. Please reload it. If the problem persists, contact the developer.';
+            }, 5000);
+            -->
+        </script>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4/leaflet.css" />
+        <link rel="stylesheet" href="viewer.css" />
+        <link rel="shortcut icon" href="tracks.png" />
+    </head>
+    <body>
+        <header>
+        <h1><a href="">Track Viewer</a></h1>
+        <ul>
+            <li id="name"></li>
+            <li id="distance"></li>
+        </ul>
+        </header>
+        <div id="drop">
+            <noscript>This application requires JavaScript.</noscript>
+            <p id="drop-text">
+                To start, click to load a GPX file
+                or drag one here.
+            </p>
+        </div>
+        <div id="map"></div>
+        <input type="file" id="load" />
+
+        <footer>
+        </footer>
+
+
+        <script src="http://cdn.leafletjs.com/leaflet-0.4/leaflet.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="tracks.js"></script>
+        <script src="mozapp.js"></script>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+CACHE MANIFEST
+# version 2013-01-20+1
+
+CACHE:
+index.html
+viewer.css
+tracks.js
+mozapp.js
+tracks.png
+unavailable.png
+http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
+# Leaflet resources
+http://cdn.leafletjs.com/leaflet-0.4/leaflet.css
+http://cdn.leafletjs.com/leaflet-0.4/leaflet.js
+http://cdn.leafletjs.com/leaflet-0.4/images/zoom-in.png
+http://cdn.leafletjs.com/leaflet-0.4/images/zoom-out.png
+
+NETWORK:
+http://otile*.mqcdn.com/tiles/
+*
+
+FALLBACK:
+http://otile*.mqcdn.com/tiles/ unavailable.png
+http://otile*.mqcdn.com/tiles/1.0.0/map/*/*/*.jpg unavailable.png

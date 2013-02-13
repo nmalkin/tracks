@@ -1,0 +1,8 @@
+{
+    "name": "Tracks",
+    "description": "GPX Track Viewer",
+    "icons": {
+        "128": "tracks.png"
+    },
+    "appcache_path": "/cache.manifest"
+}
