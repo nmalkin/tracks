@@ -42,6 +42,10 @@ function parseGPX(xmlDocument) {
     var metadata = xml.find('metadata');
     if(metadata.length == 0) {
         console.log('Metadata not found.');
+        _metadata = {
+            name: 'No Name',
+            desc: ''
+        };
     } else {
         _metadata = {
             name: metadata.children('name').text(),
