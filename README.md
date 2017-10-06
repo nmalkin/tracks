@@ -6,4 +6,4 @@ It's static, so it doesn't require any setup: just open the index file in your b
 
 The GPX file will be read from your local filesystem: you can drag it in or click to load it.
 
-The application uses [Leaflet](http://leafletjs.com/) to display the data over [OpenStreetMap](http://www.openstreetmap.org/), with tiles served by [MapQuest](http://developer.mapquest.com/web/products/open/map).
+The application uses [Leaflet](http://leafletjs.com/) to display the data over [OpenStreetMap](http://www.openstreetmap.org/).

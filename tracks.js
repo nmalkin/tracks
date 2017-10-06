@@ -4,9 +4,8 @@
 var PADDING_V = 25,
     PADDING_H = 0;
 // Use tiles from MapQuest; see: http://developer.mapquest.com/web/products/open/map
-var TILE_LAYER = new L.TileLayer("http://{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg", {
-    attribution: 'Map data © <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors — Tiles Courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a>',
-    subdomains: ['otile1', 'otile2', 'otile3', 'otile4']
+var TILE_LAYER = new L.TileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: 'Map data © <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors',
 });
 
 /* GLOBALS */
